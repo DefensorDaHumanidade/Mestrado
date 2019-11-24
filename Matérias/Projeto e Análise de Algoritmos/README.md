@@ -7,3 +7,5 @@
 • Complexidade de tempo e espaço;
 
 • Relações de Recorrência;
+
+• Somatórios;
