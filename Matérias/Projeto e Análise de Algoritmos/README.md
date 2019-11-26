@@ -9,3 +9,5 @@
 • Relações de Recorrência;
 
 • Somatórios;
+
+• Divisão e Conquista;
