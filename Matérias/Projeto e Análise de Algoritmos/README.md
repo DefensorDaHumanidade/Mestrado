@@ -11,3 +11,5 @@
 • Somatórios;
 
 • Divisão e Conquista;
+
+• Algortimos Gulosos;
