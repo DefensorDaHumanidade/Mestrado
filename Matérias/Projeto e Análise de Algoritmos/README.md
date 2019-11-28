@@ -13,3 +13,5 @@
 • Divisão e Conquista;
 
 • Algortimos Gulosos;
+
+• Programação Dinâmica;
