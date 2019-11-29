@@ -15,3 +15,5 @@
 • Algortimos Gulosos;
 
 • Programação Dinâmica;
+
+• Tratabilidade (classes, P, NP, e NP-Completo).
