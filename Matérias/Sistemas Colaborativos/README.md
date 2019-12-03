@@ -2,4 +2,4 @@
 
 ## Conteúdos
 
-• Sistemas Colaborativos
+• Teorias e modelos de colaboração;
