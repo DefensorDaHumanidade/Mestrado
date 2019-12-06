@@ -7,3 +7,5 @@
 • Sistemas de comunicação para colaboração;
 
 • Percepção e contexto;
+
+• Sistemas de Recomendação;
