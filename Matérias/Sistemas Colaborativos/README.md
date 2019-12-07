@@ -9,3 +9,5 @@
 • Percepção e contexto;
 
 • Sistemas de Recomendação;
+
+• Hardware para colaboração;
