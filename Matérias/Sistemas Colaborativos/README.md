@@ -11,3 +11,5 @@
 • Sistemas de Recomendação;
 
 • Hardware para colaboração;
+
+• Metodologia de pesquisa científica em sistemas colaborativos
