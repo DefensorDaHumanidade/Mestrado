@@ -12,4 +12,6 @@
 
 • Hardware para colaboração;
 
-• Metodologia de pesquisa científica em sistemas colaborativos
+• Metodologia de pesquisa científica em sistemas colaborativos;
+
+• Pesquisa-ação em sistemas colaborativos.
