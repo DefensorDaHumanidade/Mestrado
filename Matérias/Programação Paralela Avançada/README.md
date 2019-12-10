@@ -22,6 +22,6 @@
 
 • Programação com memória compartilhada; 
 
-• Programação com passagem de mensagens; e 
+• Programação com passagem de mensagens;
 
 • Programação com computadores vetoriais. 
