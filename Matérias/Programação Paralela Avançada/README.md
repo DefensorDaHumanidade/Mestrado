@@ -4,7 +4,7 @@
 
 • Revisão de ponteiros na linguagem C;
 
-• Tipos de computadores paralelos; 
+• Tipos de computadores paralelos;
 
 • Classificação de arquiteturas paralelas; 
 
