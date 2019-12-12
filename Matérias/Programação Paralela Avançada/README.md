@@ -6,7 +6,7 @@
 
 • Tipos de computadores paralelos;
 
-• Classificação de arquiteturas paralelas; 
+• Classificação de arquiteturas paralelas;
 
 • Exemplos de máquinas paralelas; 
 
