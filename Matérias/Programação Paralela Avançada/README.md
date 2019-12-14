@@ -10,7 +10,7 @@
 
 • Exemplos de máquinas paralelas;
 
-• Estratégias de particionamento e dividir para conquistar; 
+• Estratégias de particionamento e dividir para conquistar;
 
 • Computação síncrona; 
 
