@@ -8,7 +8,7 @@
 
 • Classificação de arquiteturas paralelas;
 
-• Exemplos de máquinas paralelas; 
+• Exemplos de máquinas paralelas;
 
 • Estratégias de particionamento e dividir para conquistar; 
 
