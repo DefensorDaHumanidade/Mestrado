@@ -12,7 +12,7 @@
 
 • Estratégias de particionamento e dividir para conquistar;
 
-• Computação síncrona; 
+• Computação síncrona;
 
 • Balanceamento de carga; 
 
