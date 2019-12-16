@@ -14,7 +14,7 @@
 
 • Computação síncrona;
 
-• Balanceamento de carga; 
+• Balanceamento de carga;
 
 • PCAM: Particionamento, Comunicação, Aglomeração e Mapeamento; 
 
