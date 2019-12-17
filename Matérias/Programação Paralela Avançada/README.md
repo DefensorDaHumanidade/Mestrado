@@ -16,7 +16,7 @@
 
 • Balanceamento de carga;
 
-• PCAM: Particionamento, Comunicação, Aglomeração e Mapeamento; 
+• PCAM: Particionamento, Comunicação, Aglomeração e Mapeamento;
 
 • PRAM: Parallel Random-Access Machine; 
 
