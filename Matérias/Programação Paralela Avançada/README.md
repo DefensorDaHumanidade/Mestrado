@@ -18,7 +18,7 @@
 
 • PCAM: Particionamento, Comunicação, Aglomeração e Mapeamento;
 
-• PRAM: Parallel Random-Access Machine; 
+• PRAM: Parallel Random-Access Machine;
 
 • Programação com memória compartilhada; 
 
