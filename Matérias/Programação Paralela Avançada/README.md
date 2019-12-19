@@ -20,7 +20,7 @@
 
 • PRAM: Parallel Random-Access Machine;
 
-• Programação com memória compartilhada; 
+• Programação com memória compartilhada;
 
 • Programação com passagem de mensagens;
 
