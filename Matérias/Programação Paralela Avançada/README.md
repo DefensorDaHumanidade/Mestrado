@@ -24,4 +24,4 @@
 
 • Programação com passagem de mensagens;
 
-• Programação com computadores vetoriais. 
+• Programação com computadores vetoriais.
