@@ -15,3 +15,9 @@
 • Metodologia de pesquisa científica em sistemas colaborativos;
 
 • Pesquisa-ação em sistemas colaborativos.
+
+---
+
+>## Bibliografia
+>
+>FUKS, Hugo; PIMENTEL, Mariano (ed.). Sistemas colaborativos. Elsevier Brasil, 2011. Disponível em: *<http://sistemascolaborativos.uniriotec.br>*
