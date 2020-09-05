@@ -1,0 +1,10 @@
+Conceito: Informações/Créditos
+
+
+Tarefa: Você deve desenhar da forma simbólica (sem usar palavras) algo que possa expressar a ideia de INFORMAÇÕES. Em inúmeros sistemas é comum existir uma área que agrega informações de desenvolvimento, história, créditos e demais afins. Tendo isso em mente represente um elemento que signifique o acesso a tal área. Caso a sua representação simbólica seja na forma de um botão (ou algo similar), você deve desenvolver artes distintas que diferenciem o "botão" pressionado do "botão" não pressionado. 
+
+
+Metáfora de Interface: Uma sugestão de posicionamento do conceito artístico na interface do sistema é bem vinda, porém este quesito não é obrigatório. 
+
+
+Nota: Você está livre para desenvolver mais de um estilo de arte, caso queira. 

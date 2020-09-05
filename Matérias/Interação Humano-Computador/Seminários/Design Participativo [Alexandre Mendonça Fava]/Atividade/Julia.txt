@@ -1,0 +1,10 @@
+Conceito: Carregamento
+
+
+Tarefa: Você deve desenhar da forma simbólica (sem usar palavras) algo que possa expressar a ideia de CARREGAMENTO (de um sistema). Em sistemas computacionais é comum alguns elementos demorarem para carregar, tendo isso em mente elabore uma arte de comunique ao usuário que sua requisição está sendo processada. Você não precisa desenhar inúmeros frames para ilustrar uma animnação, caso sua arte conceitual tenha movimento, apenas descreva em texto a movimentação caso ela exista.
+
+
+Metáfora de Interface: Uma sugestão de posicionamento do conceito artístico na interface do usuário é bem vinda, porém este quesito não é obrigatório. 
+
+
+Nota: Você está livre para desenvolver mais de um estilo de arte, caso queira. 

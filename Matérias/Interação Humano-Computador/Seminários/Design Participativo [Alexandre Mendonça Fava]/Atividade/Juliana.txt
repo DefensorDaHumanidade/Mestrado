@@ -1,0 +1,10 @@
+Conceito: Fases
+
+
+Tarefa: Você deve desenhar da forma simbólica (sem usar palavras) algo que possa expressar a ideia da escolha de FASES. Em jogos é comum que o jogador se depare com desafios onde lhe é premitido a escolha de fases: PRIMEIRA, SEGUNDA, TERCEIRA (fase). Tendo isso em mente desenhe uma arte que comunique ao jogador a ideia de escolha de uma FASE. Caso a sua representação simbólica seja na forma de um botão (ou algo similar), você deve desenvolver artes distintas que diferenciem o "botão" pressionado do "botão" não pressionado. Você não precisa necessariamente desenhar um único conceito que represente simultaneamente todas as FASES, pondendo ser três desenhos distintos, um para PRIMEIRA FASE, outro para SEGUNDA FASE e outro para TERCEIRA FASE. Destaca-se apenas que o nível de dificuldade entre as fases é equivalente, existindo apenas uma estutura narrativa que cria uma lógica cronológica entre as fases.
+
+
+Metáfora de Interface: Uma sugestão de posicionamento do conceito artístico na interface do jogo é bem vinda, porém este quesito não é obrigatório. 
+
+
+Nota: Você está livre para desenvolver mais de um estilo de arte, caso queira. 

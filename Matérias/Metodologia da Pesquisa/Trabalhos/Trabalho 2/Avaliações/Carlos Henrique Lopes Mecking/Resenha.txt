@@ -1,0 +1,22 @@
+RESENHA CRÍTICA:
+1. Título: A Survey About Prediction-Based Data Reduction in Wireless Sensor Networks
+2. Autores: Gabriel Martins Dias, Boris Bellalta e Simon Orchsner
+3. Universidade: Universidade Pompeu Fabra (Barcelona, Espanha)
+4. Publicação: ACM Computing Surveys 49, Artigo 58, 2016
+a)     Como é a estrutura do artigo para ser caracterizado como secundário?
+    1) O Artigo é uma survey, apresentando e discutindo resultados encontrados originalmente em outros artigos primários e também outras
+surveys.
+    2) Os autores não citam como foi realizada efetivamente a pesquisa. Mas considerando as características, demonstra ser uma pesquisa
+bibliográfica Tradicional, pois os autores apresentam opiniões, vantagens, desvantagens e etc sem a clara definição sistemática de critérios.
+b)    Quais os principais resultados apresentados por ele?
+1. Autores começam explicando sobre as restrições de recursos energéticos das Wireless Sensor Networks(WSN)
+2. Informam que existem trabalhos sobre geração de energia e carregamento sem fio
+3. Dizem que a questão do momento são os mecanismos existentes de redução de dados baseados em previsão projetados para WSN
+4. Os autores com base em outros artigos reforçam a urgência de reduzir o número de transmissões para apoiar o crescimento de
+dispositivos sem fio, e que o uso de previsões é uma alternativa promissora
+5. São citadas surveys onde foram realizadas análises sobre a perspectiva do consumo de energia apenas, não considerando previsões
+6. Então os autores limitaram o escopo da pesquisa não apenas na apresentação de soluções para WSN, mas também na introdução de
+técnicas de previsão existentes, e dizem que até onde sabem é a primeira vez que essa abordagem foi adotada
+7. São citadas e brevemente explicadas diversas técnicas de redução de dados, apresentado o que os autores citam como “state of art”
+sobre a perspectiva de predição de dados, bem como as vantagens e desvantagens de cada uma.
+8. Os autores listam várias questões importantes, e para cada uma delas, citam artigos e outras surveys relacionados

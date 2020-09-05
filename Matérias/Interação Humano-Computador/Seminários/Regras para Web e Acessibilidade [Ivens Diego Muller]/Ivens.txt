@@ -1,0 +1,6 @@
+Site: https://olhardigital.com.br/
+
+
+Não tem consistência em apresentar as notíticas ao ''Buscar'' pelas notícias. Nos links dentro do site, os links já visitados não demonstram características diferentes dos links não visitados, logo esse é um erro de web design de Nielsen.
+
+Para resolver esses erros de design, bastaria incluir um buscador no site e alterar de alguma forma os endereços (links) já acessados. Trocando a fonte, o estilo ou a cor do link.

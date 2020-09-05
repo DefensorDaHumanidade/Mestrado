@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage[alf]{abntex2cite} 
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{framed}                 %Incluindo Caixas
+%\usepackage[latin1]{inputenc}      %Erro no inputenc.
+
+\sloppy
+
+\title{Um Mapeamento Sistemático sobre o uso do Learning Analytics na Aprendizagem Infantil}
+
+\author{Alexandre Mendonça Fava\inst{1}, Carla Diacui Medeiros Berkenbrock\inst{1}}
+
+\address{\inst{}Universidade do Estado de Santa Catarina - UDESC\\Programa de Pós-graduação em Computação Aplicada - PPGCA\\Joinville - SC - Brasil CEP: 89.219-710
+    \email{\{alexandre.fava@hotmail.com, carla.berkenbrock@udesc.br\}}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{resumo} 
+O ensino a distância é uma modalidade educativa em crescente expansão. O processo de educação a distância gera uma quantidade superior de informações em relação ao ensino tradicional. O Learning Analytics é uma área de pesquisa relacionada à coleta e análise de dados dos alunos para o aprimoramento do aprendizado escolar. A área de Learning Analytics compreende inúmeras técnicas, objetivos e grupos. A fim de auxiliar uma futuro mapeamento, este artigo especifica um protocolo sobre como fazer um mapeamento sistemático da literatura na área de Learning Analytics voltada para o ensino fundamental.
+\end{resumo}
+
+
+\section{Introdução}\label{secao:introducao}
+
+O uso das mídias digitais e dispositivos conectados a grande rede de computadores tem crescido desde o início internet comercial no Brasil \cite{barbosa2019pesquisa}. Em 2020, a pandemia de COVID-19 foi responsável por um súbito crescimento nas plataformas de ensino  a  distância, tais como: Google Classroom, Microsoft Teams e Blackboard Learn \cite{da2020inventar}.
+
+As plataformas de ensino a distância demonstraram-se como uma alternativa viável na contenção e na propagação do SARS-CoV-2. A diminuição da circulação e do contanto entre as crianças e jovens, no ambiente escolar, é uma atitude capaz de reduzir a taxa de contágio do vírus \cite{ferguson2020report}. 
+
+Diferentemente das salas de aula tradicionais, as plataformas de ensino a distância permitem uma coleta mais automatizada e individualizada de algumas informações. A verificação da presença dos alunos em uma determinada aula pode ser conferida nos arquivos de \textit{log} das plataformas, dispensando a necessidade de uma `chamada', por exemplo. Contudo, as informações coletadas vão muito mais além, o que pode acabar dificultado o acompanhamento do professor em analisar todos os dados estudantis gerados pela plataforma \cite{de2019tendencias}. Em vias de facilitar o processo de análise e compreensão dos dados estudantis, técnicas de Learning Analytics (LA) surgiram como um suporte para as tarefas de análise de aprendizagem virtual \cite{ruiperez2015alas}.
+
+O processo de Learning Analytics busca coletar, medir, analisar e relatar os dados e seus contextos com objetivo de otimizar o aprendizado e o ambiente em que este ocorre \cite{moissa2015educational}. Percebe-se neste processo que os alunos obtém abordagens customizadas para auxilia-los a aprender e base de informação em um método que se encaixe as suas necessidades e não a classe toda.
+
+Dessa forma, apresentada a emersão das plataforma de ensino digitais, e a importância do processo de Learning Analytics para facilitar o ensino, a presente pesquisa se objetiva a apresentar o protocolo para a execução um mapeamento sistemático para a área de Learning Analytics na educação infantil.
+%Dessa forma, apresentado a emersão das plataforma de ensino digitais, e a importância do processo de Learning Analytics para facilitar o ensino, o objetivo deste mapeamento é descobrir como a Learning Analytics está sendo utilizada em conjunto com as plataformas de ensino a distância. Salienta-se que a finalidade da presente pesquisa é a de trazer uma visão sobre utilização de Learning Analytics no processo de ensino com foco na aprendizagem infantil. %Este artigo apresenta um mapeamento sistemático da literatura da área, procurando entender quais são os tipos de dados, as técnicas, as pessoas interessadas e as intervenções; e sua relação com os objetivos de análise
+
+O restante do trabalho está organizado da seguinte forma: na seção \ref{secao:trabalhos} são elencados alguns trabalhos relacionados, na seção \ref{secao:infancia} o mapeamento e os processos que ele engloba são especificados e na seção \ref{secao:conclusao} são apresentas as conclusões desta pesquisa. 
+
+
+\section{Trabalhos Relacionados}\label{secao:trabalhos}
+
+\citeonline{moissa2014learning} realizaram um mapeamento sistemático na área de Learning Analytics. Ao total 116 trabalhos, compreendidos entre os anos de 2011 e 2014, foram analisados. A análise revelou que a maioria dos trabalhos (47\%) são de interesse de pesquisadores e não mostram ferramentas. Além disso, a coleta de dados mais utilizada na área de Learning Analytics se dá por meio de dados navegacionais. Em adendo, esse tipo de coleta foi constatado em cursos mais traducionais com uma quantidade reduzida de alunos. 
+
+\citeonline{doko2018systematic} coletaram  122 artigos nas temáticas de mineração de dados na educação e Learning Analytics. Como um dos resultados diretos do artigo, foi notado um considerável crescimento da área entre os anos de 2010 e 2017. Entre os maiores achados, está a obsevação do crescimento da dinâmica da sala da aula invertida no ensino superior desde 2012.
+
+\citeonline{de2018entrevistas} analisaram vários artigos em lingua inglesa e portuguesa publicados após 2009, ao final 109 artigos foram analisados. Como resultado, foi constatado comparativamente que o objetivo da maioria dos artigos era o de identificar padrões de comportamento e trajetória dos alunos, sendo a matéria mais vista nesse contexto, a Informática. Matérias mais tracionais como  Matemática e Química não apresentaram larga presença no mapeamento realizado.
+
+
+\section{Protocolo de execução de um mapeamento sistemático}\label{secao:infancia}
+
+Mapeamentos sistemáticos são projetados para dar um panorama geral de uma determinada área, envolvendo uma busca na literatura para descobrir os estudos primários que foram publicados, estruturando o tema de pesquisa. O mapeamento se diferencia da revisão sistemática, que avalia a força das evidências. O processo se divide em: definir uma pergunta de pesquisa, definir palavras-chaves, selecionar os estudos, extrair os dados, analisar, classificar e validar \cite{carniel2017mapeamento}. 
+
+Neste sentido, cada um dos passos necessários para a execução de uma mapeamento sistemático na área de Learning Analytics para o ensino infantil estão descritos: a subseção \ref{a:1} apresenta as questões de pesquisa, a subseção \ref{a:2} mostra a frase de busca, a subseção \ref{a:3} define os critérios objetivo para inclusão e exclusão de artigos e por fim a subseção \ref{a:4} realiza uma análise dos artigos restantes.
+
+%Segundo \cite{petersen2015guidelines}, um mapeamento é um processo para classificação e contabilização das contribuições existen-tes em uma determinada área.  Ou seja, o mapeamento permite a estruturação da área de pesquisa a ser realizada,bem como expor uma nova visão para área e indicar as tendências de pesquisas
+
+\newpage
+
+\subsection{Questões de Pesquisa}\label{a:1}
+
+O primeiro passo para a execução de qualquer mapeamento sistemático é a definição das questões de pesquisa. Essas questões de pesquisa são responsáveis por ditar o que se espera conseguir do mapeamento sistemático. As questões que norteiam um mapeamento na área de  Learning Analytics na educação infantil propostas são:
+
+\begin{itemize}
+    \item Quais os tipos de dados coletados?
+    \item Quais são os tamanhos das amostras nos estudos?
+    \item Quais são as disciplinas mais presentes no estudos?
+    \item Quais métodos são utilizados para analisar os alunos?
+    \item Quais ferramentas são utilizadas para analisar as informações dos estudantes?
+\end{itemize}
+
+
+\subsection{Frase de Busca}\label{a:2}
+
+Após a definição das questões de pesquisa é necessário estabelecer as bases de dados acadêmicas que serão utilizadas para execução da pesquisa. \citeonline{buchinger2014mecanismos} realizaram uma análise quantitativa com 40 Mecanismo de Busca Acadêmica. Para a execução de uma pesquisa científica é recomendado a utilização de pelo menos três fontes de dados distintas, neste contexto, as três bases acadêmicas mais bem avaliadas são: Web of Knowledge, Engineering Village e Scopus SciVerse. 
+
+A realização de uma pesquisa nos mecanismos de busca acadêmicas, pode ser realizada com maior precisão com o auxílio de alguns recursos de busca disponíveis como caractere coringa e operadores booleanos. A busca deve ser realizada nas palavras-chaves, título e resumo do artigo preferencialmente. Salienta-se que algumas ferramentas de busca estão limitadas a um conjunto máximo de oito operadores booleano (como o Science Direct). Deste modo, formulou-se a seguinte frase de busca para o mapeamento sistemático na área de Learning Analytics no aprendizado infantil: 
+
+\begin{framed}
+ \raggedright (``e-learning Analytics'' OR ``elearning Analytics'' OR ``Learning Analytics'') \\ AND (chil* OR kid* OR infant* OR minor*)
+\end{framed}
+
+
+\subsection{Critérios Objetivos}\label{a:3}
+
+A execução da busca dos artigos e demais pesquisas nas bases de dados acadêmicas pode retornar trabalhos indesejados para o mapeamento sistemático. Deste modo surgem os critérios de inclusão e exclusão com o objetivo de ajudar a descartar os artigos que, embora
+contivessem as palavras-chaves definidas na frase de busca, não contribuíam para responder as questões de pesquisa. Como critérios de inclusão estabelece-se:
+
+\begin{itemize}
+    \item Pesquisas publicadas após 2010, inclusive.
+    \item Pesquisas de acesso livre e gratuito.
+    \item Pesquisas envolvendo crianças.
+    \item Pesquisas primárias.
+\end{itemize}
+
+Todos os critérios de inclusão devem ser verdadeiros para que um artigo seja considerado viável para ser incluído no mapeamento sistemático. Contudo, basta um critério de exclusão para uma pesquisa ser descartada. Como critérios de exclusão elencam-se: 
+
+\begin{itemize}
+    \item Pesquisas duplicadas.
+    \item Pesquisas não escritas em inglês ou português.
+    \item Pesquisas sem os termos da frase de busca no título, resumo ou palavras-chaves.
+\end{itemize}
+
+
+\subsection{Análise}\label{a:4}
+
+O último passo para o mapeamento sistemático é o de analisar o conteúdo dos artigos restantes, encontrando relações, achados importantes e respondendo as questões de pesquisa formuladas. Durante esse processo artigos podem ser descartados, mas não incluídos. 
+
+Gráficos de bolhas, barras ou tabelas, são úteis para uma rápida compreensão das relações existentes na área estudada. Um esquema relacionando o tempo corrido e o número de publicações é excelente para identificar tendências. A análise dos artigos deve ser feita de modo a presar a responder as questões de pesquisa, no entanto, outras questões respondidas podem ser apresentas, tal como relações encontradas ou fatos interessantes na área.
+
+
+\section{Conclusão}\label{secao:conclusao}
+
+O Learning Analytics é uma área de pesquisa que tem como objetivo melhorar o processo de ensino-aprendizagem por meio da análise de dados gerados pelos alunos. Este trabalho apresentou o protocolo de um mapeamento sistemático sobre a área de Learning Analytics com intuito auxiliar uma futura pesquisa na sua execução. 
+
+O atual trabalho elaborou um protocolo a fim de evidenciar os principais problemas, objetivos, métodos, estudos de caso e resultados obtidos nos trabalhos levantados. Espera-se que a execução do protocolo sistemático estabelecido possa trazer um panorama geral e atualizado da área de Learning Analytics para a educação infantil. 
+
+
+\section*{Agradecimentos}\label{secao:agradecimentos}
+
+O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001.
+
+%\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

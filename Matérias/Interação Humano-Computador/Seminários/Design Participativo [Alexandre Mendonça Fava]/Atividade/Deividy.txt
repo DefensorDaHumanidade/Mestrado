@@ -1,0 +1,10 @@
+Conceito: Aviso de Iteração (Quest/Diálogo de NPC)
+
+
+Tarefa: Você deve desenhar da forma simbólica (sem usar palavras) algo que possa expressar a ideia de uma NOTIFICAÇÃO. Em jogos é comum existirem personagens que possuem desafios a serem cumpridos pelo jogador. Tendo isso em mente desenvolva um ícone ou botão que comunique ao jogador a ideia de um aviso. Caso a representação simbólica seja na forma de um botão (ou algo similar), você deve desenvolver artes distintas que diferenciem o "botão" pressionado do "botão" não pressionado.
+
+
+Metáfora de Interface: Ignore esse quesito, não se preocupe com a Metáfora de Interface.
+
+
+Nota: Você está livre para desenvolver mais de um estilo de arte, caso queira. 
