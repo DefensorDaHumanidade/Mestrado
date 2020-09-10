@@ -1,6 +1,6 @@
 % Arquivo Principal para Dissertações do PPGCA - Udesc Joinville
 
-% abnTeX2: Modelo de Trabalho Academico em conformidade com
+% abnTeX2: Modelo de Trabalho Academico em conformidade com 
 % ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
 % Apresentacao
 
@@ -30,22 +30,22 @@
 % Dados da Capa
 % ---
 
-\titulo{TÍTULO DO TRABALHO }
-\autor{Alexandre Mendonça Fava}
+\titulo{TÍTULO DO TRABALHO}
+\autor{ALEXANDRE MENDONÇA FAVA}
 \local{Joinville}
 \instituicao{Universidade do Estado de Santa Catarina - UDESC}
 \campus{Centro de Ciências Tecnológicas - CCT}
 \curso{Mestrado em Computação Aplicada}
 \data{2020}
-\fulldata{xx de xxxx de 2020}
+\fulldata{xx de xxxx de 2017}
 
 % ---
 % Folha de Rosto
 % ---
 \inforosto{Dissertação submetida ao Programa de Pós-Graduação em Computação Aplicada do Centro de Ciências Tecnológicas da Universidade do Estado de Santa Catarina, para a obtenção do grau de Mestre em Computação Aplicada.}
-\orientador{Carla Diacui}
-\orientadorRotulo{Dra. }
-\coorientador{Adilson Vahldick}
+\orientador{CARLA DIACUI MEDEIROS BERKENBROCK}
+\orientadorRotulo{Dr. }
+\coorientador{ADILSON VAHLDICK}
 \coorientadorRotulo{Dr. }
 
 % ----
@@ -60,18 +60,35 @@
 % ---
 % Lista de Abreviaturas e Siglas
 % ---
+
+%“Não existe revelação mais nítida da alma de uma sociedade do que a forma como esta trata as suas crianças”, Nelson Mandela
+
+
 \begin{siglas}
+	%------------------------
+	%\SingleSpacing
+	%\item[OMS]
+	%\begin{acronym}
+	%	\acro{OMS}[OMS]{{Organização Mundial da Saúde}}
+	%\end{acronym}
+	%\item[JS]
+	%\begin{acronym}
+	%	\acro{JS}[JS]{{Jogo Sério}}
+	%\end{acronym}
+	%----------------------
   \SingleSpacing
   \item[OV]       Organização Virtual
-  \item[CC]       \textit{Cloud Computing}
-  \item[AHP]      \textit{Analytic Hierarchy Process}
+%  \item[CC]       \textit{Cloud Computing}
+%  \item[OC]       Oportunidade de Colaboração
+%  \item[AHP]      \textit{Analytic Hierarchy Process}
+%  \item[DEA]      \textit{Data Envelopment Analysis}
 \end{siglas}
 
 \begin{simbolos}
 	\SingleSpacing
 	\item[\%] Porcentagem
-	\item[$D_{ab}$] Distância Euclidiana
-	\item[$O(n)$] Ordem de um algoritmo
+	%\item[$D_{ab}$] Distância Euclidiana
+	%\item[$O(n)$] Ordem de um algoritmo
 \end{simbolos}
 
 % ---
@@ -93,6 +110,7 @@
 
 \include{Partes/cap1}
 \include{Partes/cap2}
+\include{Partes/cap3}
 
 % ---
 % Finaliza o bookmark do PDF
@@ -121,15 +139,17 @@
 % ----------------------------------------------------------
 % Apêndices
 % ----------------------------------------------------------
-\begin{apendicesenv}
-	\include{Partes/apeA}
-\end{apendicesenv}
+
+%\begin{apendicesenv}
+%	\include{Partes/apeA}
+%\end{apendicesenv}
 
 % ----------------------------------------------------------
 % Anexos
-% ----------------------------------------------------------
-\begin{anexosenv}
-	\include{Partes/aneA}
-\end{anexosenv}
+%
+ ----------------------------------------------------------
+%\begin{anexosenv}
+%	\include{Partes/aneA}
+%\end{anexosenv}
 
 \end{document}
