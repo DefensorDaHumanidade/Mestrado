@@ -2,7 +2,7 @@
 
 A fundamentação teórica é um elemento crucial para a compreensão dos fundamentos teóricos que dão base aos conceitos que permeiam o objeto de estudo em uma determinada pesquisa. O capítulo de fundamentação surge então para munir o pesquisador dos conhecimentos necessários para o andamento e a conclusão de sua pesquisa. Ao mesmo tempo, a fundamentação auxilia outros pesquisadores na idenficação das bases do conhecimento teórico que guiaram determinando estudo. 
 
-O corrente estudo tem como cerne a validação de um programa educacional para a prevenção da violência sexual infantil baseado na dinâmica de jogos sérios. Deste modo, a seção \ref{sec:JogosSerios} fundamenta o conceito de Jogos Sérios. A seção \ref{sec:Engenharia} trás alguns conceitos sobre o desenvolvimento de jogos. % A seção 2.3 discutei os sistemas de aplicação de programas educacionais e suas formas de validação. 
+O corrente estudo tem como cerne a validação de um programa educacional para a prevenção da violência sexual infantil baseado na dinâmica de jogos sérios. Deste modo, a seção \ref{sec:JogosSerios} fundamenta o conceito de Jogos Sérios. A seção \ref{sec:Avaliativos} trás alguns conceitos sobre o desenvolvimento de jogos. % A seção 2.3 discutei os sistemas de aplicação de programas educacionais e suas formas de validação. 
 
 \vspace{0.75cm}
 
@@ -128,7 +128,7 @@ O presente trabalho baseia-se nos conceitos pesquisados e nas definições refer
 
 
 
-\section{Metodologia}\label{sec:Engenharia}
+\section{Metodologia Avaliativa}\label{sec:Engenharia}
 
 %Cascata = ela segue uma cascata, (1970). 5 etapa, requerimentos, design, implementação, verificação e manutenção. 
 
@@ -142,10 +142,10 @@ O presente trabalho baseia-se nos conceitos pesquisados e nas definições refer
 
 % as metodologias ágeis não são tão rídigas, proprocionam um desenvolvimento ágil que pode se adaptar a adversidades encontradas durante o desenvolvimento. 
 
-O ensino de desenvolvimento de jogos é uma tarefa não-trivial, por se tratar de uma categoria de software com um conjunto de requisitos bastante específicos e demandas tecnológicas singulares. O uso de metodologias ágeis para o desenvolvimento de jogos pode facilitar esse processo de desenvolvimento e conseqüentemente influenciar na aprendizagem desse processo.
+%%%%%%%O ensino de desenvolvimento de jogos é uma tarefa não-trivial, por se tratar de uma categoria de software com um conjunto de requisitos bastante específicos e demandas tecnológicas singulares. O uso de metodologias ágeis para o desenvolvimento de jogos pode facilitar esse processo de desenvolvimento e conseqüentemente influenciar na aprendizagem desse processo.
 
 
-5) Game Design Document (GDD) [25]: É um documento guia do processo de desenvolvimento de um jogo e é dependente do contexto de cada projeto. O GDD precisa conter detalhes de jogabilidade, enredo, personagens, interface e regras do jogo. A falta dele pode ocasionar problemas sérios de design, falta de recursos e dificuldades de corrigir eventuais problemas [16]. %http://sbgames.org/sbgames2018/files/papers/ArtesDesignFull/188093.pdf
+%%%%%%%%%%%5) Game Design Document (GDD) [25]: É um documento guia do processo de desenvolvimento de um jogo e é dependente do contexto de cada projeto. O GDD precisa conter detalhes de jogabilidade, enredo, personagens, interface e regras do jogo. A falta dele pode ocasionar problemas sérios de design, falta de recursos e dificuldades de corrigir eventuais problemas [16]. %http://sbgames.org/sbgames2018/files/papers/ArtesDesignFull/188093.pdf
 
 
 %1) Metodologia Maiêutica (M2 ) [22]: Apresenta uma proposta de metodologia de desenvolvimento de Ambientes Virtuais 3D Interativos com foco no processo de ensino e aprendizagem. O diferencial desta metodologia é a forma como ela conduz o processo de concepção, induzindo a reflexão e a criatividade.%http://sbgames.org/sbgames2018/files/papers/ArtesDesignFull/188093.pdf
@@ -159,10 +159,170 @@ O ensino de desenvolvimento de jogos é uma tarefa não-trivial, por se tratar d
 %Avaliar a aprendizagem exige uma abordagem sistemática para determinar o sucesso e as dificuldades dos alunos (Bellotti et al., 2013). O grande desafio para criar essas avaliações é que necessitam naturalmente de serem tarefas do jogo, onde não se sacrifique a confiabilidade e validade do processo (Shute & Ke, 2012) e não se interrompa o fluxo na experiência de jogo correndo o risco do aluno perder o interesse (Chen, 2007). As interações com o jogo, ou seja, a sequência das ações, é que demonstram, com base nas escolhas do aluno, o que sabe ou não do assunto. O progresso do aluno ao avançar num jogo e acumular pontos de experiência pode ser uma evidência da sua aprendizagem. Não conseguir superar os desafios do jogo, representa que o aluno tem deficiências quanto às competências necessárias para fazê-lo, e rastrear as suas tentativas pode apontar quais são esses problemas e o apoio que necessita. Essas interações geram usualmente uma grande quantidade de dados a serem analisados. [tese ADILSON]
 
 
+
+A avaliação de jogos é utilizada para medir o nível de sucesso de uma solução educacional, ou seja, se ela possibilita alcançar os objetivos que foram estabelecidos. Existem inúmeros métodos e modelos para avaliação de jogos, no entanto, essa seção trata apenas das estratégias de avaliação utilizadas como base para o modelo desenvolvido por \citeonline{savi2011avaliaccao}. Em aspectos estruturais a \autoref{Kirkpatrick} apresenta o modelo de Kirkpatrick, a \autoref{ARCS} apresenta o modelo \ac{ARCS}, a \autoref{EEUU} apresenta conceitos de experiência do usuário, a s\autoref{Bloom} apresenta a taxonomia de Bloom, e por fim, a \autoref{savizinho} apresenta o modelo teórico de avaliação desenvolvido por \citeonline{savi2011avaliaccao}.
+
+
+\subsection{Kirkpatrick}
+\label{Kirkpatrick}
+
+Donald Kirkpatrick criou o método de avaliação de treinamento baseado em quatro diferentes níveis: reação, aprendizagem, comportamento e resultados \cite{donald1994evaluating}. Cada nível tem sua importância e, conforme se passa de um nível para outro seguinte, o processo se torna mais complexo e demorado, porém fornece resultados mais valiosos \cite{chapman2009kirkpatrick}. Em linhas gerais, a definição de cada um dos níveis pode ser feita da seguinte maneira:
+
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Reação}: Avalia a experiência de aprendizagem a partir da percepção dos participantes. Para isso, utiliza como ferramenta de avaliação formulários de \textit{feedback}, pesquisas após o treinamento ou questionários.
+\end{itemize}
+
+
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Aprendizagem}: Avalia o aumento de conhecimento, utilizando-se de avaliações e testes, além de entrevistas ou observações.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Comportamento}: Avalia os efeitos da nova aprendizagem por meio de observações ou entrevistas ao longo do tempo. Desta forma, busca-se avaliar as mudanças comportamentais, avaliar a relevância das mudanças e avaliar a sustentabilidade das mudanças. 
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Resultados}: Avaliam os efeitos do treinamento do aluno. Para isso, utiliza de ferramentas como questionários, observações ou entrevistas.
+\end{itemize}
+
+
+\pagebreak
+
+\subsection{ARCS}
+\label{ARCS}
+
+O modelo \ac{ARCS} tem como objetivo principal empregar estratégias motivacionais no projeto de materiais educacionais \cite{keller1983development}. Este modelo foca na interação dos alunos com os materiais e ambientes de aprendizagem e é derivado da teoria expectativa-valor. Tal teoria aponta que a expectativa (que está ligada a uma probabilidade subjetiva de um indivíduo obter sucesso) e valores (que estão ligados a satisfação de necessidades pessoais ou motivos) são determinantes chave do esforço empregado em uma atividade. 
+
+O nome do modelo é um acrônimo para: Atenção, Relevância, Confiança, Satisfação. Cada um dos termos que compõem o nome do modelo são peças fundamentais para a sua formulação \cite{keller1983development}. Suas definições seguem da seguinte maneira: 
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Atenção}: Refere-se às respostas cognitivas dos alunos aos estímulos instrucionais. A atenção é um elemento motivacional e pré-requisito para a aprendizagem. O desafio é obter e manter um nível satisfatório da atenção dos alunos ao longo de um período de aprendizagem.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Relevância}: A relevância se preocupa em garantir que uma proposta educacional seja consistente a ponto de conseguir conectar o conteúdo da aprendizagem com sua aplicação em cenários reais. A relevância também quantifica as associações que os alunos conseguem fazer entre seus conhecimentos prévios e as novas informações.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Confiança}: Está relacionada com a criação de expectativas positivas aos estudantes. Isso pode ser alcançado ao se proporcionar experiências de sucesso no uso do material escolar decorrentes da própria habilidade e esforço dos alunos. Este fator tem influência na persistência dos estudantes.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Satisfação}: Os alunos precisam ter sentimentos positivos sobre a experiência de aprendizagem, e isso pode vir com recompensas e reconhecimento. Também recomenda-se providenciar tão cedo quanto possível oportunidades para os alunos aplicarem o que foi aprendido. Os estudantes devem sentir que o esforço dedicado aos estudos foi apropriado e que houve consistência entre objetivos, conteúdo e testes de avaliações.
+\end{itemize}
+
+\pagebreak
+
+
+\subsection{Experiência do Usuário}
+\label{EEUU}
+
+A \ac{UX} (em português, \textbf{experiência do usuário}) analisa a percepção e resposta de uma pessoa sobre o uso de um produto, sistema ou serviço. Os produtos, ao invés de serem vistos como um pacote de funcionalidades e benefícios, são vistos como um gerador de experiências. Essas experiências, decorrentes da interação, podem gerar mudanças no estado emocional das pessoas \cite{calvillo2009core}, e é objetivo da \ac{UX} avaliar e ampliar o entendimento das experiências que as pessoas têm com os produtos.
+
+\citeonline{savi2011avaliaccao} destaca quatro modelos, usados para mensurar a experiência do usuário: \citeonline{takatalo2010presence, poels2007always, calvillo2009core, sweetser2005gameflow}. Tais modelos são apresentados em maiores detalhes no anexo deste trabalho, respectivamente: \autoref{chap:A5}, \ref{chap:A6}, \ref{chap:A7}, \ref{chap:A8}. Em linhas gerais, os conceitos fundamentais desses quatro modelos adotados por \citeonline{savi2011avaliaccao} são: 
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Imersão}: Mensura a distorção da noção temporal dos jogadores, relacionada com a experiência de profundo envolvimento no jogo, levando em consideração o desvio de foco do mundo real para o mundo do jogo.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Interação Social}: Mede a conexão de um jogador com demais jogadores, em termos de cooperação, conquistas e união. O envolvimento do usuário com outras pessoas é um elemento de diversão usado para medir a experiência do jogador nesse aspecto. 
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Desafio}: É responsável pela compreensão da satisfação do usuário em relação ao nível de dificuldade, devendo existir um equilíbrio que agrade o jogador.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Divertimento}: Mensura de modo geral os sentimentos de diversão, prazer, relaxamento, distração e satisfação; sendo levado em consideração o interesse do jogador em voltar a jogar ou recomendar o jogo.
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Controle}: Quantifica a sensação de independência, poder e liberdade do jogador no jogo. Compreende em linhas gerais, a bijeção entre as ações do jogador e as respostas do personagem do jogador no jogo. 
+\end{itemize}
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Competência}: A competência é uma medida combinada de habilidades do jogador e sentimentos positivos de eficiência. Está relacionada com a percepção de habilidades, controle e uso dessas habilidades para explorar o jogo e progredir.
+\end{itemize}
+
+
+
+
+\subsection{Taxonomia de Bloom}
+\label{Bloom}
+
+A taxonomia de Bloom foi criada com o objetivo de apoiar os processos de projeto e avaliação educacional, podendo ser aplicada para planejar, projetar e avaliar a efetividade da aprendizagem e de treinamentos \cite{bloom1956taxonomy}. A taxonomia de Bloom tem uma proposta que abrange e aborda tanto o domínio motor, quanto o domínio cognitivo \cite{moody2003evaluating}. Sua estrutura está definida em seis níveis:
+
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Conhecimento}: Habilidade de lembrar informações e conteúdos previamente abordados como fatos, datas, palavras, teorias, métodos, classificações, lugares, regras, critérios, procedimentos, etc. A habilidade pode envolver lembrar uma significativa quantidade de informação ou fatos específicos.
+\end{itemize}
+\vspace{-0.4cm}
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Compreensão}: Habilidade de compreender e dar significado ao conteúdo. Essa habilidade pode ser demonstrada por meio da tradução do conteúdo compreendido para uma nova forma contextual, oral ou escrita. Nessa categoria, encontra-se a capacidade de entender a informação ou fato, de captar seu significado e de utilizá-la em contextos diferentes.
+\end{itemize}
+\vspace{-0.4cm}
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Aplicação}: Habilidade de usar informações, métodos e conteúdos aprendidos em novas situações concretas. Isso pode incluir aplicações de regras, métodos, modelos, conceitos, princípios, leis e teorias. 
+\end{itemize}
+\vspace{-0.4cm}
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Análise}: Habilidade de subdividir o conteúdo em partes menores com a finalidade de entender a estrutura final. Essa habilidade pode incluir a identificação das partes, análise de relacionamento entre as partes e reconhecimento dos princípios organizacionais envolvidos. Nesse ponto é necessário não apenas ter compreendido o conteúdo, mas também a estrutura do objeto de estudo, identificando suas partes e suas inter-relações.
+\end{itemize}
+\vspace{-0.4cm}
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Síntese}: Habilidade de agregar e juntar partes com a finalidade de criar um novo todo. Essa habilidade envolve a produção de uma comunicação única (tema ou discurso), um plano de operações (propostas de pesquisas) ou um conjunto de relações abstratas (esquema para classificar informações). 
+\end{itemize}
+\vspace{-0.4cm}
+\begin{itemize}[label={},leftmargin=2em]
+\item \textbf{Avaliação}: Habilidade de julgar o valor do material para um propósito específico. O julgamento é baseado em critérios bem definidos que podem ser externos (relevância) ou internos (organização) e podem ser fornecidos ou conjuntamente identificados.
+\end{itemize}
+
+
+\subsection{Modelo teórico de Savi}
+\label{savizinho}
+
+\citeonline{savi2011avaliaccao} desenvolveu um modelo para a avaliação da qualidade de jogos educacionais baseado no modelo de avaliação de treinamentos de Kirkpatrick (\autoref{Kirkpatrick}), nas estratégias motivacionais do modelo ARCS (\autoref{ARCS}), na área de experiência do usuário (\autoref{EEUU}) e na taxonomia de objetivos educacionais de Bloom (\autoref{Bloom}). O modelo de \citeonline{savi2011avaliaccao} se destoa dos demais por proporcionar um aumento na confiabilidade das avaliações de jogos educacionais \cite{savi2010proposta}. Além disso, o modelo em questão demanda baixo esforço de customização e pode ser aplicado tanto em jogos de tabuleiro, quanto em jogos digitais. 
+
+O modelo de \citeonline{savi2011avaliaccao} agregou teorias da área de design instrucional e educação. A união dos estudos de \ac{UX}, do modelo \ac{ARCS}, da taxonomia de Bloom, do modelo de Kirkpatrick culminaram em um instrumento medidor da qualidade de jogos educacionais composto por três subcomponentes: motivação, experiência do usuário e aprendizagem. Cada método (\ac{UX}, Kirkpatrick, Bloom, \ac{ARCS}) contribuiu de forma distinta para a formulação do modelo teórico de \citeonline{savi2011avaliaccao}.
+
+Para a fundamentação do modelo de \citeonline{savi2011avaliaccao}, a área de experiência do usuário é inteiramente usada (levando em consideração a subseção \ref{EEUU} apenas). Em contrapartida apenas o primeiro nível (\textbf{reação}) do método de Kirkpatrick é usado. O modelo \ac{ARCS} contribui com seus quatro níveis (\textbf{atenção}, \textbf{relevância}, \textbf{confiança} e \textbf{satisfação}). E a taxonomia de Bloom contribui somente com os seus três primeiros níveis (\textbf{conhecimento}, \textbf{compreensão} e \textbf{aplicação}). A fundamentação da escolha de tais níveis é descrita em maiores detalhes no artigo original de \citeonline{savi2011avaliaccao}. A estrutura do modelo em questão se faz presente na \autoref{fig:saaviw}.
+
+
+%figura estava aqui
+
+
+
+A estrutura do modelo teórico de \citeonline{savi2011avaliaccao} é mostrada na  \autoref{fig:saaviw}. Nela os círculos representam os constructos teóricos do modelo, ou seja, as variáveis latentes, e os retângulos representam as dimensões que compõem as variáveis latentes. O círculo mais à esquerda representa a variável latente \textbf{reação} (reação dos alunos ao jogo educacional, como proposto por Kirkpatrick). O círculo superior compreende conceitos do modelo ARCS para avaliação do nível de \textbf{motivação}. O círculo mais ao centro aborda componentes sobre a \textbf{experiência dos usuários}. E o círculo inferior traz princípios da taxonomia de Bloom para avaliar a percepção educacional dos usuários e seu \textbf{conhecimento}. Cada círculo se ramifica em retângulos, cada qual, abordando conceitos de seus modelos base. 
+
+\pagebreak
+
+\begin{figure}[h]
+	\centering
+	\caption{Modelo de Avaliação de Jogos Educacionais}
+	\includegraphics[width=1.0\textwidth]{Figuras/Savi.jpg}
+	\label{fig:saaviw}\\
+	Fonte: \citeonline{savi2011avaliaccao}.
+\end{figure}
+%\vspace{-0.8cm}
+
+
+Os constructos do modelo teórico para avaliação de jogos educacionais desenvolvido por \citeonline{savi2011avaliaccao} são medidos por meio de itens de um questionário que foi concebido por um misto de itens padronizados e itens customizados para a avaliação da aprendizagem. Os questionários, planilhas e demais materiais referentes ao trabalho de \citeonline{savi2011avaliaccao} podem ser encontrados tanto em seu \textit{website}\footnote{\url{https://sites.google.com/site/avaliacaodejogoseducacionais}} quanto no apêndice da presente pesquisa (\autoref{chap:A1}).
+
+\newpage
+
 %\section{Learning Analytics}\label{sec:LA}
 
-\section{Modelos Avaliativos}\label{sec:Engenharia}
+\section{Modelos de Desenvolvimento}\label{sec:Avaliativos}
+
+As metodologias de projeto instrucional são utilizadas para guiar o processo de projeto e o desenvolvimento de vários tipos de médias para a aprendizagem (McMahon, 2009). O projeto instrucional é ``a ação intencional e sistemática de ensino, que envolve o planejamento, o desenvolvimento e a utilização de métodos, técnicas, atividades, materiais, eventos e produtos educacionais em situações didáticas específicas, a fim de facilitar a aprendizagem humana a partir dos princípios de aprendizagem e instrução conhecidos'' (Filatro, 2010). O projeto de jogos sérios é um processo de exploração das teorias pedagógicas aplicadas aos jogos para criar as melhores condições de ensino e aprendizagem (Perron, 2009). Através desse processo identificam-se o que é necessário ensinar e as tarefas que o jogador necessita de completar para que a aprendizagem ocorra. Os resultados do projeto instrucional informam a equipa de desenvolvimento como apresentar a informação de uma forma que ajudará o aluno a compreendê-la (Iuppa, 2010).
+
+A metodologia de projeto adotado nesta investigação segue a proposta por Marfisi-Schottman et al. (2010) que constitui um modelo com sete passos, como ilustrado na Figura 4.2. Além dos passos, os autores também incluem os atores responsáveis por cada um deles. Como esta investigação envolveu essencialmente uma pessoa (o próprio investigador), foi suprimida a representação e descrição dos atores. Os modelos consideram uma equipa de desenvolvimento do jogo. Serão descritos mais simplificadamente os passos, considerando que este é um projeto de investigação envolvendo uma equipa minimalista, constituída pelo investigador e pelos seus orientadores.
+
+O primeiro passo é a especificação dos objetivos pedagógicos que consiste em definir o domínio de conhecimento, as capacidades e competências a serem aprendidas pelos alunos. O projetista identifica os resultados esperados na aprendizagem (memorizar, entender, aplicar, etc.) e que não devem ser confundidos com o objetivo do jogo, que é ganhar, uma vez que ganhar no jogo não está necessariamente relacionado com a aprendizagem (Van Staalduinen, 2011; Lameras et al., 2017). Nessa fase também são definidas as formas de avaliar o progresso e a aprendizagem do jogador.
+
+No controlo de qualidade pedagógico (sexto passo) é feita a avaliação se todos os objetivos instrucionais foram considerados (Filatro, 2008) e se a mensuração do progresso e desempenho cobrem esses objetivos (Iuppa, 2010). Deve ser feito antes do teste com utilizadores reais, e depois, como um processo de evolução constante do jogo.
 
 
-
-\section{Ferramentas}\label{sec:Ferramentas}
+%\section{Ferramentas}\label{sec:Ferramentas} FALAR EM UM PARAGRAFO NA PARTE DE DESENVOLVIMENTO
