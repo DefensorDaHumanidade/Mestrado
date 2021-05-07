@@ -1,167 +1,155 @@
-% Arquivo Principal para Dissertações do PPGCA - Udesc Joinville
+%% Copyright 2012-2016 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the L PPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
 
-% abnTeX2: Modelo de Trabalho Academico em conformidade com 
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
 % ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
 % Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% Personalização para o modelo Udesc 2020 7. ed. revisada e modificada
+% MANUAL_2020_09_07_1599489825065_12510.pdf
+% Autor: Felipe Joel Zimann (felipezimann@hotmail.com)
+% Data: 02/12/2020 v1.0
+% Data: 13/02/2021 v1.0.1 alterado tamanho numeração da página para 10pt
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
 
-% Adaptado com base no abnTeX2
-% Por: Luís Felipe Bilecki
-% E-mail: luis.bilecki@gmail.com
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-\documentclass[
-	12pt,				% tamanho da fonte
-	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
-	oneside,			
-	a4paper,			% tamanho do papel. 
-	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
-	section=TITLE,		% títulos de seções convertidos em letras maiúsculas
-	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
-	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
-	% -- opções do pacote babel --
-	english,			% idioma adicional para hifenização
-	brazil,				% o último idioma é o principal do documento
+\documentclass[							% Descrição
+	12pt,								% tamanho da fonte
+	openright,							% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,							% para impressão em recto e verso (twoside). Oposto a (oneside)
+	a4paper,							% tamanho do papel. 
+	chapter=TITLE,						% títulos de capítulos convertidos em letras maiúsculas
+	section=TITLE,						% títulos de seções convertidos em letras maiúsculas
+	sumario=abnt-6027-2012,
+	english,							% idioma adicional para hifenização
+	brazil,								% o último idioma é o principal do documento
+	fleqn,								% equações alinhadas a esquerda (UDESC/CCT)+
 	]{abntex2}
 
-%Pacotes prinicipais e customização
-\usepackage{./Estilo/udesc}
-%\usepackage[utf8]{vietnam} %por causa do jogo
+\input{PacotesBasicos}					% Incliu pacotes básicos 
 
-% ---
-% Dados da Capa
+% -----------------------------------------------------------------
+% Você pode adicionar seus pacotes a partir desta linha;
+% -----------------------------------------------------------------
+
+%\usepackage[showframe,pass]{geometry}
+%\usepackage[11,12]{pagesel}
+
+% -----------------------------------------------------------------
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% -----------------------------------------------------------------
+
+\titulo{Um Jogo como Tecnologia Educacional para \\ Prevenção da Violência Sexual Infantil}%
+
+\autor{Alexandre {}Mendonça Fava}%
+\orientador[Orientadora:]{Carla {}Diacui Medeiros Berkenbrock}%
+\coorientador{Adilson {}Vahldick}%
+
+% ATENÇÃO: O símbolo {} indica o sobrenome para a ficha catalográfica.
+% Exemplo: Sherlock Holmes {}da Silva para sobrenomes compostos;
+% Exemplo: Arnold Alois {}Schwarzenegger para sobrenome simples.
+
+\instituicao{Universidade do Estado de Santa Catarina, Centro de Ciências Tecnológicas, Programa de Pós--Graduação em Computação Aplicada}%
+
+%\tipotrabalho{Tese (Doutorado)}
+\tipotrabalho{Dissertação (Mestrado)}
+
+%\preambulo{Tese apresentada ao Programa de Pós--Graduação em Computação Aplicada do Centro de Ciências Tecnológicas da Universidade do Estado de Santa Catarina, como requisito parcial para a obtenção do grau de Doutor em Computação Aplicada.}
+
+\preambulo{Dissertação apresentada ao Programa de Pós--Graduação em Computação Aplicada do Centro de Ciências Tecnológicas da Universidade do Estado de Santa Catarina, para a obtenção do grau de Mestre em Computação Aplicada.}
+
+\local{Joinville}%
+
+\data{\the\year}%
 % ---
 
-\titulo{UM JOGO COMO TECNOLOGIA EDUCACIONAL PARA PREVENÇÃO DA VIOLÊNCIA SEXUAL INFANTIL}
-\autor{ALEXANDRE MENDONÇA FAVA}
-\local{Joinville}
-\instituicao{Universidade do Estado de Santa Catarina - UDESC}
-\campus{Centro de Ciências Tecnológicas - CCT}
-\curso{Mestrado em Computação Aplicada}
-\data{2020}
-\fulldata{16 de Dezembro de 2020}
+% compila o indice
+\makeindex
 
-% ---
-% Folha de Rosto
-% ---
-\inforosto{Dissertação submetida ao Programa de Pós-Graduação em Computação Aplicada do Centro de Ciências Tecnológicas da Universidade do Estado de Santa Catarina, para a obtenção do grau de Mestre em Computação Aplicada.}
-\orientador{CARLA DIACUI MEDEIROS BERKENBROCK}
-\orientadorRotulo{Dra. }
-\coorientador{ADILSON VAHLDICK}
-\coorientadorRotulo{Dr. }
-
-% ----
+% -----------------------------------------------------------------
 % Início do documento
-% ----
+% -----------------------------------------------------------------
 \begin{document}
-% ----
-% Elementos Pré-Textuais
-% ----
-\include{Partes/pretextual}
 
-% ---
-% Lista de Abreviaturas e Siglas
-% ---
+\selectlanguage{brazil}
+\frenchspacing  % Retira espaço extra obsoleto entre as frases.
 
-%“Não existe revelação mais nítida da alma de uma sociedade do que a forma como esta trata as suas crianças”, Nelson Mandela
+% -----------------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% -----------------------------------------------------------------
+\pretextual
 
-\begin{comment}
-\begin{siglas}
-	%------------------------
-	%\SingleSpacing
-	%\item[OMS]
-	%\begin{acronym}
-	%	\acro{OMS}[OMS]{{Organização Mundial da Saúde}}
-	%\end{acronym}
-	%\item[JS]
-	%\begin{acronym}
-	%	\acro{JS}[JS]{{Jogo Sério}}
-	%\end{acronym}
-	%----------------------
-\end{comment}
-\begin{siglas}
-  \SingleSpacing
-  \item[OV]       Organização Virtual
-  \item[UX]       \textit{User eXperience}
-  \item[ARCS]	  \textit{Attention, Relevance, Confidence, Satisfaction} 
-%  \item[OC]       Oportunidade de Colaboração
-%  \item[AHP]      \textit{Analytic Hierarchy Process}
-%  \item[DEA]      \textit{Data Envelopment Analysis}
-\end{siglas}
+% Você pode comentar os elementos que não deseja em seu trabalho;
 
+% A capa pode ser escolhida dentro do arquivo Capa.tex (TCC, Master, Doc, ...)
+% Caso não utilize a Ficha Catalográfica entre na folha de rosto e retire o * de dentro do arquivo FolhadeRosto
+\include{PreTextuais/Capa}					% Elemento Obrigatório
+\include{PreTextuais/FolhadeRosto}			% Elemento Obrigatório
+\include{PreTextuais/FichaCatalografica}	% Elemento Obrigatório (Verso da Folha)
+%\include{PreTextuais/Errata}				% Elemento Opcional
+\include{PreTextuais/FolhadeAprovacao}		% Elemento Obrigatório
+\include{PreTextuais/Dedicatoria}			% Elemento Opcional
+\include{PreTextuais/Agradecimentos}		% Elemento Opcional
+%\include{PreTextuais/Epigrafe}				% Elemento Opcional (necessita de fonte bibliográfica)
+\include{PreTextuais/Resumo}				% Elemento Obrigatório
+\include{PreTextuais/Abstract}				% Elemento Obrigatório
+\include{PreTextuais/Listas}				% Elemento Opcional
+\include{PreTextuais/Sumario}				% Elemento Obrigatório
 
-%\include{Partes/siglas}
-
-\begin{simbolos}
-	\SingleSpacing
-	\item[\%] Porcentagem
-	\item[$\sigma$] Desvio Padrão
-	\item[Nº] Número 
-	%\item[$D_{ab}$] Distância Euclidiana
-	%\item[$O(n)$] Ordem de um algoritmo
-\end{simbolos}
-
-% ---
-% inserir o sumario
-% ---
-
-\pdfbookmark[0]{\contentsname}{toc}
-\tableofcontents*
-\cleardoublepage
-% ---
-
+% -----------------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% -----------------------------------------------------------------
 \textual
 
-%Retira o nome do capítulo do header
-\pagestyle{eudesc}
-\aliaspagestyle{chapter}{eudesc}
+\pagestyle{PagNumReduzida}						% Comando para cabeçalho somente com numeração de página 10pt
+\aliaspagestyle{chapter}{PagNumReduzida}		% Deixar numeração da primeira página com tamanho igual ao resto da numeração
+% ref.: https://groups.google.com/g/abntex2/c/CP7g8ZMgi-c/m/KjfEnn5b9a4J
 
-% ---
 
-\include{Partes/cap1}
-\include{Partes/cap2}
-\include{Partes/cap3}
-\include{Partes/cap4}
-%\include{Partes/cap5}
-\include{Partes/cap6}
+% ---- Mantenha está estrutura, assim você deixa o trabalho mais organizado -------
 
-% ---
-% Finaliza o bookmark do PDF
-% ---
-\bookmarksetup{startatroot}% 
-% ---
+\include{Textuais/Capitulo1}
+\include{Textuais/Capitulo2}
+\include{Textuais/Capitulo3}
+\include{Textuais/Capitulo4}
+%\include{Textuais/Capitulo5}
+\include{Textuais/Capitulo6}
 
-% ----------------------------------------------------------
+% -----------------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
-% ----------------------------------------------------------
+% -----------------------------------------------------------------
 \postextual
 
-% ----------------------------------------------------------
+% Você pode comentar os elementos que não deseja em seu trabalho;
+
 % Referências bibliográficas
-% ----------------------------------------------------------
-\bibliography{references}
+\bibliography{Bibliografia}	% Elemento Obrigatório
 
-% ----------------------------------------------------------
-% Glossário
-% ----------------------------------------------------------
-%
-% Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
-%\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
-%\begin{apendicesenv}
-%	\include{Partes/apeA}
-%\end{apendicesenv}
-
-% ----------------------------------------------------------
-% Anexos
-%
- ----------------------------------------------------------
-\begin{anexosenv}
-	\include{Partes/aneA}
-\end{anexosenv}
+\include{PosTextuais/Glossario}				% Elemento Opcional
+\include{PosTextuais/Apendices}				% Elemento Opcional
+\include{PosTextuais/Anexos}				% Elemento Opcional
+\include{PosTextuais/IndiceRemissivo}		% Elemento Opcional
 
 \end{document}
+
+% -----------------------------------------------------------------
+% Fim do Documento
+% -----------------------------------------------------------------	
